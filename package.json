@@ -1,0 +1,12 @@
+{
+  "name": "home",
+  "scripts": {
+    "start": "clj -m cljs.main -co build.edn -ro repl.edn -v -w src -c -r",
+    "start:win": "powershell -command \"clj -m cljs.main -co build.edn -ro repl.edn -v -w src -c -r\""
+  },
+  "dependencies": {
+    "parcel": "^2.0.0-alpha.3.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
